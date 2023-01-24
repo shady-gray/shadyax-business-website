@@ -1,0 +1,83 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+body {
+  
+}
+footer, header {
+    background: rgb(66, 109, 138);
+background: linear-gradient(90deg, 
+rgba(66,109,138,1) 0%,
+rgba(53,69,94,1) 50%,
+rgba(45,63,85,1) 84%);
+}
+/* Header Section */
+header {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #282B37;
+    z-index: 1;
+}
+.logo {
+    height: 250px;
+    width: auto;
+    margin: 10px 0;
+    margin-left: 30px;
+}
+.links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+.links  a {
+    margin: 15px;
+}
+.links button {
+    background-color: #e40f0f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.burgermenu {
+    margin: auto;
+    margin-left: 10px;
+    display: none;
+}
+/* Banner Section */
+#banner {
+    background-image: url(../Images/milad-fakurian-wNsHBf_bTBo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid blue;
+    position: relative;
+    top: 80px;
+    padding: 50px 30px;
+
+}
+#banner form {
+    width: auto;
+    height: 80%;
+    border: 1.5px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    .links .burgermenu {
+        display: inline-block;
+    }
+}
